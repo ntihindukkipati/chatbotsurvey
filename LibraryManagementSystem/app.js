@@ -41,5 +41,8 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.send(err.status);
 });
-
+ var port = process.env.PORT || 8080;
+ express.listen(port, function () {
+   console.log("Listening port 3000")
+ });
 module.exports = app;
