@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
+var app = express();
 
 var mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://nikhitha:niki2312@cluster0-9q5qj.mongodb.net/AIChatBot?retryWrites=true&w=majority')
@@ -42,7 +43,7 @@ app.use(function (err, req, res, next) {
   res.send(err.status);
 });
  var port = process.env.PORT || 8080;
- express.listen(port, function () {
+ app.listen(port, function () {
    console.log("Listening port 3000")
  });
 module.exports = app;
