@@ -73,7 +73,7 @@ export class BookCreateComponent implements OnInit {
     this.index++;
     if(this.index == 5 )
       this.questions.push("thank you for your feedback");
-    if(this.index == 6 ) {
+    if(this.index == 7 ) {
       console.log('thank you');
       this.router.navigate(['/books']);
     }

@@ -5,33 +5,57 @@
 }
 
 .example-full-width {
-  width: 100%;
+  width: 50%;
 }
 
 .example-full-width:nth-last-child() {
   margin-bottom: 10px;
 }
-
+.white-color
+{
+  background-color: white !important;
+}
+.body-margin
+{
+  margin-top: -50px !important;
+}
+.type-width
+{
+  width: 63%;
+  margin-left: 34.25%;
+  margin-top: 10px;
+}
 .button-row {
   margin: 10px 0;
 }
 .chatbot{
   width: 600px;
-  margin: 0 auto;
+  margin-left : 34%;
   margin-top: 50px;
   height: 700px;
   padding: 20px;
   overflow: scroll;
   align-self: center;
+  background-color: #dbdad8;
+  overflow: auto;
+  border-radius: 10px;
+}
+.border-radius
+{
+  border-radius: 10px;
+}
+.wheat
+{
+  background-color: #dbdad8 !important;
 }
 .message.to {
-  background-color: yellow;
+  background-color: #5bc0de !important;
   color: black;
   margin-left: 100px;
   text-align: right;
 }
 .message.from {
-  background-color: darkred;
+  background-color: coral !important;
   color: #fff;
   margin-right: 100px;
 
@@ -66,3 +90,29 @@
   font-size: 20px;
 }
 
+.image{
+  height:71.7em; background-size:cover; width:100%;
+  background-image:url('images/chatbot5.jpg');
+  background-position:50% 50%;
+}
+.message.from[_ngcontent-c1] {
+  background-color: coral !important;
+  color: #fff;
+  margin-right: 100px;
+}
+.message.to[_ngcontent-c1] {
+  background-color: #5bc0de !important;
+  color: black;
+  margin-left: 100px;
+  text-align: right;
+}
+.logoNew
+{
+  background-image:url('images/ChatBotLogo2.JPG');
+  width: 166px;
+  height: 177px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
